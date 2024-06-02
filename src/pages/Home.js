@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import profileimage from '../images/ahmedprofileimage.jpg'
 
 const Home = () => {
-    const [isDarkMode, setIsDarkMode] = useState(true);
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
     useEffect(() => {
         const body = document.body;
@@ -69,14 +69,14 @@ const Home = () => {
                     <div class="detail">
                         <h3>Hi, It's Me</h3>
                         <h1>I'm <span style={{ color: "#f9532d" }}>Malik</span></h1>
-                        <p>I'm a professional Fronten dWeb Developer. Our Main Goal to help & Satisficed the Local & Global Clients by
+                        <p>I'm a professional Frontend Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by
                             web development solutions
                         </p>
                         <div className="social">
-                            <a href="https://www.linkedin.com/in/malikatonda" style={{ '--socialAni': 1 }}><i className='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/malikahmed106/" style={{ '--socialAni': 2 }}><i className='bx bxl-instagram'></i></a>
-                            <a href="https://github.com/adeshinamalik" style={{ '--socialAni': 3 }}><i className='bx bxl-github'></i></a>
-                            <a href="4/" style={{ '--socialAni': 4 }}><i className='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/in/malikatonda" target='_blank' style={{ '--socialAni': 1 }}><i className='bx bxl-linkedin'></i></a>
+                            <a href="https://www.instagram.com/malikahmed106/" target='_blank' style={{ '--socialAni': 2 }}><i className='bx bxl-instagram'></i></a>
+                            <a href="https://github.com/adeshinamalik" target='_blank' style={{ '--socialAni': 3 }}><i className='bx bxl-github'></i></a>
+                            <a href="https://x.com/Ahmed_malik19/" target='_blank' style={{ '--socialAni': 4 }}><i className='bx bxl-twitter'></i></a>
                         </div>
                     </div>
                     <div class="img-sec">
